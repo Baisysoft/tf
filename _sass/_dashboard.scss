@@ -1,0 +1,22 @@
+.dashboard {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  width: 682px;
+
+  svg {
+
+    circle {
+      stroke: black;
+      stroke-width: 3px;
+      shape-rendering: crisp-edges;
+    }
+
+    .innerText {
+      fill: white;
+      font-size: 1.4em;
+      alignment-baseline: central;
+    }
+  }
+
+}

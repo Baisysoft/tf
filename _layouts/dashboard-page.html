@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-2">
+    <ul class="nav nav-pills nav-stacked">
+      <li {% if page.title == 'summary' %}class='active'{% endif %}><a href="{{ "/pages/summary.html" | prepend: site.baseurl }}">Summary</a></li>
+      <li {% if page.title == 'venues' %}class='active'{% endif %}><a href="{{ "/pages/venues.html" | prepend: site.baseurl }}">Venues</a></li>
+      <li {% if page.title == 'connections' %}class='active'{% endif %}><a href="#">Connections</a></li>
+      <li {% if page.title == 'performance' %}class='active'{% endif %}><a href="#">Performance</a></li>
+    </ul>
+  </div>
+  <div class="col-md-10">{{ content }}</div>
+</div>
